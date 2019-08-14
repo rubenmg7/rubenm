@@ -64,6 +64,7 @@ Una manera fácil de recordar esto es pensar en una máquina en un rack de servi
 ### 8) Explique los elementos importantes de RESPONSE en HTTP
 
 ### 9) Describa con un gráfico la arquitectura Java EE
+![imagen](https://www.monografias.com/trabajos106/introduccion-arquitectura-web-java/img10.png)
 
 ### 10) Explique cuáles son los contenedores, componentes y servicios de Java EE
 
