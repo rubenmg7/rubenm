@@ -1,5 +1,12 @@
 # Práctica N° 1
 ### SISTEMA EMPRESARIALES
+|Carrera|Ingenieria De Sistemas|inicial apellido|
+|---------|---------|---------|
+|Materia|Tecnologias Emergentes II|M|
+|Apellidos y Nombres|Mayta Gutierrez Ruben|
+|C.I.|8387179|
+|Lugar y Fecha|Villa Esperanza/16 De Agosto De 2019|
+
 ### 1) explique que son los sistemas empresariales
 > son los procesos empresariales en torno a la logística y servicio al cliente: compras, aprovisionamiento, producción, almacenamiento, preparación, distribución y postventa. 
 ### 2) Describa cuales son las características más importantes de una aplicación empresarial
