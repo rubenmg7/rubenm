@@ -16,6 +16,18 @@
 > En definitiva los software de aplicación son los programas que nos ayudan a llevar a cabo diferentes tipos de tareas. Cada uno de ellos está programado para ofrecer sus servicios dentro de un campo o sector más concreto y basándose en los diferentes sistemas informáticos que existen en el mercado.
 ### 3) Investigue y proponga cinco (5) instituciones que requerirían aplicaciones de misión crítica. Justifique su respuesta
 
+#### Bancos
+
+#### Tigo
+
+#### Entel
+
+#### Viva
+
+#### Aduana
+
+>la caida del sistema de estas empresar causaria grandes perdidas tanto a la empresa como al pais, poer eso es aconsejable hacer >aplicaciones de mision critica para cada una de ellas.
+
 ### 4) Explique cuáles son las diferencias entre la escalabilidad horizontal y escalabilidad vertical
 > La escala horizontal significa que la escala agregando más máquinas a su grupo de recursos, mientras que la escala vertical significa que la escala agregando más potencia (CPU, RAM) a una máquina existente.
 Una manera fácil de recordar esto es pensar en una máquina en un rack de servidores, agregamos más máquinas en dirección horizontal y agregamos más recursos a una máquina en dirección vertical.
@@ -31,6 +43,7 @@ Una manera fácil de recordar esto es pensar en una máquina en un rack de servi
 >Usualmente se trata de un dispositivo de software que proporciona servicios de aplicación a las computadoras cliente. Un servidor de aplicaciones generalmente gestiona la mayor parte (o la totalidad) de las funciones de lógica de negociación y de acceso a los datos de las aplicaciones. Los principales beneficios de la aplicación de la tecnología de servidores de aplicación son la centralización y la disminución de la complejidad en el desarrollo de aplicaciones.
 
 ### 6) Con un gráfico explique cómo funciona el protocolo HTTP
+![PROTOCOLO HTTP](https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2Froble.pntic.mec.es%2Fjprp0006%2Ftecnologia%2Fbachillerato_tic%2Funidad01_navegadores%2Fimagenes_navegador_buscador%2Fcliente_servidor.jpg&container=blogger&gadget=a&rewriteMime=image%2F*)
 
 ### 7) Explique los elementos importantes de REQUEST en HTTP
 > HTTP define un conjunto de métodos de petición para indicar la acción que se desea realizar para un recurso determinado. Aunque estos también pueden ser sustantivos, estos métodos de solicitud a veces son llamados HTTP verbs. Cada uno de ellos implementan una semántica diferente, pero algunas características similares son compartidas por un grupo de ellos: ej. un request method puede ser safe, idempotent, o cacheable.
@@ -62,10 +75,23 @@ Una manera fácil de recordar esto es pensar en una máquina en un rack de servi
 ##### PATCH
 >El método PATCH  es utilizado para aplicar modificaciones parciales a un recurso.
 ### 8) Explique los elementos importantes de RESPONSE en HTTP
+>response.buffer Sirve para interferir en el proceso buffering
+>Responce.CacheControl Permite a los servidores guardar un acopia en la cache
+>Responce.Flush Provoca el envío inmediato al cliente del contenido del buffer de salida
+>Responce.End Detiene el proceso de la pagina ASP
+>Responce.Clear Vacía el contenido del buffer de salida
 
 ### 9) Describa con un gráfico la arquitectura Java EE
 ![Arquitectura JAVA](https://image.slidesharecdn.com/jatunandjavaee-110905104600-phpapp02/95/desarrollo-de-aplicaciones-empresariales-con-java-ee-4-728.jpg?cb=1316098712)
 
 ### 10) Explique cuáles son los contenedores, componentes y servicios de Java EE
+>Contenedores: Son la interface entre un componente y el bajo nivel, es especifico para la plataforma , antes de que se pueda ejecutar >el componente web
+
+>Componentes: Aplicaciones cliente (Web, Applets, Aplicaciones de escritorio), Componentes web (Servlet, JavaServerPages, >JavaServerFaces), Componentes de negocio (Enterprice JavaBeans)
+
+>Servicios: WSDL, SOAP, JAX-WS , JAXB, WS-POLICY
 
 ### 11) Investigue los métodos más utilizados de las clases HttpServlet, HttpServletRequest y HttpServletResponse, y para cada uno de los métodos muestre un ejemplo.
+>HttpServlet: init(ServletConfig config), getServletConfig(), service(ServletRequest req,ServletResponse res), destroy()
+>HttpServletRequest: getHeader(String name), getCookies(), getSession(), setAttribute(String name, Object value)
+>HttpServletResponse: addCookie(), addHeader(), addIntHeader(), contaisHeader(), encodeRedirectURL(), encodeURL(), sendError(), >sendRedirect(), setStatus()
